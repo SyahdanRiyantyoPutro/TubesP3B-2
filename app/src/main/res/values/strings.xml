@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tubes IF APPS</string>
+
+    <!-- Main Fragment   -->
+    <string name="tv_main_title">IF APPS</string>
+    <string name="tv_main_subtitle">Dari IF Unpar, Oleh IF Unpar, Untuk IF Unpar</string>
+    <string name="btn_main_title">Login</string>
+
+    <!-- Left Fragment   -->
+    <string name="pengumuman_title">Pengumuman</string>
+    <string name="pertemuan_title">Pertemuan</string>
+    <string name="pramatkul_title">Prasyarat Mata Kuliah</string>
+    <string name="pengaturan_title">Pengaturan</string>
+    <string name="signout_title">Sign Out</string>
+
+    <!-- Tambah_Dokter Fragment   -->
+    <string name="tv_tambah_title">Tambah Dokter</string>
+    <string name="tv_tambah_spesial">Spesialisasi</string>
+
+    <!-- Pertemuan Fragment   -->
+    <string name="tv_pertemuan_title">Buat Pertemuan</string>
+    <string name="tv_pertemuan_nama">Nama</string>
+    <string name="tv_pertemuan_dokter">Dokter</string>
+    <string name="tv_pertemuan_keluhan">Keluhan</string>
+    <string name="tv_pertemuan_tanggal">Tanggal</string>
+    <string name="tv_pertemuan_waktu">Waktu</string>
+    <string name="et_hint_nama">Masukkan Nama Anda</string>
+    <string name="et_hint_keluhan">Masukkan Keluhan Anda</string>
+    <string name="et_hint_tanggal">Pilih Tanggal Pertemuan</string>
+    <string name="et_hint_waktu">Pilih Waktu Pertemuan</string>
+    <string name="btn_simpan">SIMPAN</string>
+
+    <!-- Item List Dokter   -->
+    <string name="tv_list_dokter_title">Daftar Dokter</string>
+    <string name="btn_list_dokter">+</string>
+
+    <!-- Toolbar   -->
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+</resources>
