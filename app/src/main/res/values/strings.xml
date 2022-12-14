@@ -37,4 +37,10 @@
     <!-- Toolbar   -->
     <string name="openDrawer">Open</string>
     <string name="closeDrawer">Close</string>
+
+    <!-- Pramatkul -->
+    <string name="fragment_pramatkul_title">FRS</string>
+    <string name="fragment_tambah_matkul_title">Tambah</string>
+    <string name="fragment_tambah_matkul_prasyarat">Prasyarat</string>
+    <string name="fragment_tambah_matkul_btn_ambil">Ambil</string>
 </resources>
