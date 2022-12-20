@@ -4,18 +4,34 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
+import com.example.tubesifapps.databinding.ItemListPramatkulBinding;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class PramatkulAdapter extends BaseAdapter {
     private List<Pramatkul> pramatkulList;
-    @Override
-    public int getCount() {
-        return 0;
+    private PramatkulFragment pramatkulFragment;
+    ItemListPramatkulBinding binding;
+
+    public PramatkulAdapter (PramatkulFragment pramatkulFragment){
+        this.pramatkulFragment = pramatkulFragment;
+        this.pramatkulList = new ArrayList<Pramatkul>();
+    }
+
+    public void add (List<Pramatkul> title){
+        this.pramatkulList = (List<Pramatkul>) title;
+        this.notifyDataSetChanged();
     }
 
     @Override
-    public Object getItem(int position) {
-        return null;
+    public int getCount() {
+        return pramatkulList.size();
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return pramatkulList.get(i);
     }
 
     @Override
@@ -24,7 +40,11 @@ public class PramatkulAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
-        return null;
+    public View getView(int i, View convertView, ViewGroup parent) {
+        binding = ItemListPramatkulBinding.inflate(this.pramatkulFragment.getLayoutInflater());
+        View itemView = binding.getRoot();
+        Pramatkul pramatkul = (Pramatkul) this.getItem(i);
+        this.binding.tvSmt.setText(pramatkul.getSmtPramatkul());
+        return itemView;
     }
 }

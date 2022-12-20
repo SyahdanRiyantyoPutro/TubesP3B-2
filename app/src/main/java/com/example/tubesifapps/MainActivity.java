@@ -11,7 +11,7 @@ import android.view.View;
 
 import com.example.tubesifapps.databinding.ActivityMainBinding;
 
-public class MainActivity extends AppCompatActivity implements FragmentListener {
+public class MainActivity extends AppCompatActivity implements FragmentListener, MainPresenter.IMainActivity {
     private ActivityMainBinding binding;
     protected MainFragment mainFragment;
     protected PengumumanFragment pengumumanFragment;

@@ -18,7 +18,7 @@
     <string name="tv_tambah_spesial">Spesialisasi</string>
 
     <!-- Pertemuan Fragment   -->
-    <string name="tv_pertemuan_title">Buat Pertemuan</string>
+    <string name="tv_pertemuan_title">Pertemuan</string>
     <string name="tv_pertemuan_nama">Nama</string>
     <string name="tv_pertemuan_dokter">Dokter</string>
     <string name="tv_pertemuan_keluhan">Keluhan</string>
@@ -28,10 +28,19 @@
     <string name="et_hint_keluhan">Masukkan Keluhan Anda</string>
     <string name="et_hint_tanggal">Pilih Tanggal Pertemuan</string>
     <string name="et_hint_waktu">Pilih Waktu Pertemuan</string>
-    <string name="btn_simpan">SIMPAN</string>
+    <string name="btn_tambah_pertemuan">BUAT PERTEMUAN</string>
 
-    <!-- Item List Dokter   -->
-    <string name="tv_list_dokter_title">Daftar Dokter</string>
+    <!-- Tambah Pertemuan Fragment   -->
+    <string name="tv_tambah_pertemuan_title">Tambah Pertemuan</string>
+    <string name="tv_judul_pertemuan">Judul</string>
+    <string name="tv_jadwal_pertemuan">Jadwal</string>
+    <string name="tv_partisipan_pertemuan">Partisipan</string>
+    <string name="btn_jadwal_dosen_pertemuan">Lihat Jadwal Dosen</string>
+    <string name="btn_simpan_pertemuan">Simpan</string>
+    <string name="tv_deskripsi_pertemuan">Deskripsi</string>
+
+    <!-- Jadwal Dosen -->
+    <string name="tv_jadwal_dosen_title">Jadwal Dosen</string>
     <string name="btn_list_dokter">+</string>
 
     <!-- Toolbar   -->
